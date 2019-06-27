@@ -1,8 +1,10 @@
 # SCNN_Building_Blocks
 Stochastic convolution neural networks building blocks
 
+PROJECT : Implementation and Analysis of Stochastic Convolution Neural Network (LeNEt-5) on FPGA
+
 The popular LeNet-5 CNN was developed completely from ground using stochastic computing circuits. These cicruits are developed in VHDL and contains generics which
-can be used to change accordingly for newer designs.
+can be changed accordingly for newer or more complex CNN designs.
 For better understanding on the functionality of these circuits you can request me for more details @ ponnanna.kmc@gmail.com
 The repository contains following discrete stochastic computing blocks using which a complete Stochastic Convolution neural Netwrok can be designed.
 (1) Stochastic Mutlipliers | File Name : stochastic_multipliers.vhd
@@ -16,4 +18,4 @@ The repository contains following discrete stochastic computing blocks using whi
 (8) Stochastic MAC Unit | File Name : mac_84.vhd
 (9) Parameter Buffer | File Name : param_buffer.vhd
 (10) Stochastic Computing Neuron | sc_neuron_type1
-(11) SCNN_config_control_IP | 
+(11) SCNN_config_control_IP | File Name : SCNN_config_control_IP.rar
